@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Mañana Cafe</title>
+        <meta charset="utf-8"/>
+        <meta name="keywords" content="cafe, coffee, drinks, cakes, friends"/>
+        <meta name="description" content="This is the web site about the most beautiful cafe - Mañana Caffee"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css"/> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.2.0/css/material-design-iconic-font.min.css"/>
+        <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+        <link rel="preconnect" href="https://fonts.googleapis.com"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet"/>
+    </head>
+    <body>
+            <header>
+                <div id="levo">
+                    <a href="index.html"><img src="slike/logo.png" width="80px" height="80px"  alt="Logo Mañana" title="Mañana" /></a>
+                    <h3>Cafe Mañana</h3>
+                    <i class="zmdi zmdi-phone">&nbsp;+381 060 1234567</i>
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="author.html">Autor</a></li>
+                        <li><a href="cenovnik.html">Cenovnik</a></li>
+                        <li><a href="index.html">Početna</a></li>
+                    </ul>
+                </nav>
+                <div class="cleaner"></div>
+            </header>
+            <div id="meni">
+            <h1>Cafe Mañana</h1>
+        </div>
+        <div class="image"></div>
+        <div class="wrapper">
+            <div id="kolona">
+                <div class="blok">
+                    <p id="slide-left">Kafa i topli napici sami po sebi, bez ulepšavanja i dodavanja u umerenim količinama, nisu loši za vas. Čak i veliki latte napravljen od obranog mleka neće premašiti 200 kalorija - otprilike isto kao činija obične kaše. Problemi nastaju zbog zavisničke prirode kofeina i teške prodaje svih tih aroma i dodataka. U 2002. godini, 71% svih odraslih ljudi je pilo kafu, konzumirajući u proseku četiri šoljice dnevno. Ako bilo ko od tih 71% odluči da je njihovo piće po izboru Praline Mocha sa šlagom, oni vraćaju 2.220 kalorija dnevno samo u kafi.</p>
+                </div>
+                <div class="blok">
+                    <a href="galerija.html"><img src="slike/coffee.png" width="220px" height="300px" alt="Coffee to go" /></a>
+                    <button type="button">Klik do galerije<span>&uparrow;</span></button>
+                </div>
+                <div class="blok">
+                    <p id="slide-right">Verujemo da je kafa više od običnog pića: to je kultura, ekonomija, umetnost, nauka - i strast. Bez obzira da li ste novi u pivu ili ste stručnjak za espreso, bez obzira da li ga više volite sa ili bez kofeina, uvek možete više da naučite o omiljenom američkom napitku.Postoje ljudi koji ne mogu da započnu dan bez sveže skuvane šoljice kafe. Toliko vole kafu da ponekad sebe nazivaju „zavisnicima od kafe“. I mi to dobro razumemo.Međutim, svakodnevno ispijanje šoljica kafe nije nužno loša navika.</p>
+                </div>
+                <div class="cleaner"></div>
+            </div>
+        </div>
+        <div class="image"></div>
+        <div class="wrapper">
+                <div id="slike">
+                <img src="slike/vina.jpg" alt="Vina" title="Vina" width="350px" height="350px" />
+                <img src="slike/kolac.jpg" alt="Kolač" title="Kolač" width="350px" height="350px" />
+                <img src="slike/kafa.jpg" alt="Esspreso" title="Esspreso" width="350px" height="350px" />
+                <img src="slike/kafa2.jpg" alt="Kafe" title="Kafe" width="350px" height="350px" />
+            </div>
+        </div>
+        <div class="image"></div>
+        <div id="wrapper">
+            <div id="mapa">
+                <fieldset>
+                    <legend>Mapa</legend>
+                <img src="slike/map.png" alt="Mapa" title="Lokacija" width="400px" height="350px"/>
+                <table>
+                    <tr>
+                        <td><i class="zmdi zmdi-pin">&nbsp;&nbsp;Bulevar Kralja<br/> Aleksandra 243, Beograd</i></td>
+                    </tr>
+                    <tr>
+                        <td><i class="zmdi zmdi-time">&nbsp;&nbsp; Pon - Čet, Ned : 08h - 23h</br>Pet - Sub : 08h - 24h</i></td>
+                    </tr>
+                    <tr>
+                        <td><i class="zmdi zmdi-phone">&nbsp;&nbsp;060 123-4567</i></td>
+                    </tr>
+                </table>
+            </fieldset>
+            </div>
+            <div id="forma">
+                <form action="/action_page.php" target="_blank" method="POST" autocomplete="on">
+                    <fieldset>
+                        <legend>Utisak</legend>
+                            <label for="ime">Ime i prezime:</label>
+                            <input type="text" id="ime" name="ime" placeholder="Pera Perić"/></br>
+                            <label for="mail">E-mail:</label>
+                            <input type="email" id="mail" name="mail" placeholder="peraperic@gmail.com" required/></br><br/>
+
+                            <label for="pol" id="pol">Pol:</label>
+                            <input type="radio" id="pol" name="pol" class="krug"/>
+                            <label for="pol">Muško</label>
+                            <input type="radio" id="pol" name="pol" class="krug"/>
+                            <label for="pol">Žensko</label><br/><br/>
+                            
+                            <label for="datum">Datum:</label>
+                            <input type="date" id="datum" name="datum"/><br/><br/>
+
+                            <label for="ocena" >Ocenite naše usluge:</label>
+                            <input type="range" min="0" max="5" name="ocena"/>
+                            </br><br/>
+
+                            <label for="komentar">Komentar:</label></br>
+                            <textarea cols="80" rows="7" placeholder="Dodaj komentar..."></textarea><br/>
+                            <input type="submit" id="submit" name="submit" value="Pošalji"/>
+                    </fieldset>
+                </form>
+            </div>
+            <div class="cleaner"></div>
+        </div>
+        <footer>
+            <ul id="mreze">
+                <li><i class="zmdi zmdi-facebook"></i></li>
+                <li><i class="zmdi zmdi-instagram"></i></li>
+                <li><i class="zmdi zmdi-twitter"></i></li>
+                <li><i class="zmdi zmdi-rss"></i></li>
+                <li><i class='fa fa-sitemap'></i></li>
+            </ul>
+            <h3>Copyright &copy; Nevena Nikolic, 174/21  ICT Visoka Skola</h3>
+        </footer>
+    </body>
+</html>
