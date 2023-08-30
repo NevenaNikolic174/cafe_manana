@@ -2,7 +2,7 @@
 
 Project Description: Cafe Manana Website Development
 
-This project, undertaken during the second year of study, centers around the creation of a website for "Cafe Manana" using HTML5 and CSS3. The project aims to showcase a variety of web development techniques and features to create an engaging and visually appealing online presence for the cafe.
+This project, undertaken during the first year of study, centers around the creation of a website for "Cafe Manana" using HTML5 and CSS3. The project aims to showcase a variety of web development techniques and features to create an engaging and visually appealing online presence for the cafe.
 
 Site Structure:
 The website is meticulously organized, adhering to a structured layout that optimizes user navigation and content discovery. The content is thoughtfully arranged to provide seamless interaction and information accessibility.
